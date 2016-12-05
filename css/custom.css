@@ -1,7 +1,3 @@
-.section.hero {
-    overflow-x: hidden;
-}
-
 /* Shared
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
 .button {
@@ -83,6 +79,9 @@
 @media (max-width: 750px) {
   #heroimage {
     width: 90rem;
+  }
+  .section.hero {
+    overflow-x: hidden;
   }
 }
 
