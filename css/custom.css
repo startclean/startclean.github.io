@@ -1,5 +1,5 @@
-body {
-	overflow-x: hidden;
+.section.hero {
+    overflow-x: hidden;
 }
 
 /* Shared
@@ -77,6 +77,13 @@ body {
 }
 .categories .section-description { 
   margin-bottom: 4rem;
+}
+
+/* smaller than 750 */
+@media (max-width: 750px) {
+  #heroimage {
+    width: 90rem;
+  }
 }
 
 /* Bigger than 550 */
